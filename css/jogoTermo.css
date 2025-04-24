@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap");
+
+body {
+  background-image: url("../images/back2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: "Comic Neue", cursive;
+  font-weight: bold;
+  
+}
+
+span {
+  text-shadow: 0 0 8px #ff9900, 0 0 2px #000;
+}
+
+.titulo-container {
+  text-align: center;
+  width: 510px;
+  margin-top: 1rem;
+}
+
+.amarelo {
+  color: #c79c2e;
+}
+
+.verde {
+  color: #51b36e;
+}
+
+.vermelho {
+  color: #943e3c;
+}
+
+.jogo-container {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linha-letra {
+  margin-bottom: 1rem;
+  justify-content: center;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.coluna-letra {
+  background-color: #f4f3f1;
+  color: #252525;
+  height: 40px;
+  width: 48px;
+  border-radius: 0.25rem;
+  margin-right: 0.5rem;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.digitando {
+  border: 3px solid #252525;
+}
+
+.desabilitado {
+  border: 1px solid #252525;
+}
+
+.correto {
+  background-color: #51b36e;
+  color: #f4f3f1;
+}
+
+.incorreto {
+  background-color: #943e3c;
+  color: #f4f3f1;
+}
+
+.lugar-errado {
+  background-color: #c79c2e;
+  color: #f4f3f1;
+}
+
+.teclado-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.teclado-linha-container {
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  justify-content: center;
+  display: flex;
+}
+
+.teclado-linha-container.naoAlfabetico {
+  width: 100%;
+}
+
+.teclado-linha-container:not(.naoAlfabetico) button {
+  width: 8%;
+  height: 40px;
+  border-radius: 0.25rem;
+  margin-right: 0.25rem;
+  border: 1px solid #252525;
+  font-size: 16px;
+  cursor: pointer;
+}
