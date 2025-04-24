@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
   margin-bottom: 50px;
-  z-index: 0;
+  z-index: -1;
   
 }
 
@@ -81,7 +81,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/images/back1.png");
+  background-image: url("../images/back1.png");
   background-size: cover;
   background-position: center top ; /* sobe a imagem */
   background-repeat: no-repeat;

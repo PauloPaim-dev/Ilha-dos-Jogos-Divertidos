@@ -3,7 +3,7 @@
 body {
   background-image: url("../images/back2.png");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position:center;
   background-size: cover;
   font-family: "Comic Neue", cursive;
   font-weight: bold;
